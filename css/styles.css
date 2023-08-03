@@ -1,0 +1,73 @@
+body {
+  color: aliceblue !important;
+    font-family: 'Helvetica', 'Arial', 'sans-serif'; 
+  /* color: black; */
+  font-size: 13pt;	
+  background-image:  url('/background.jpg');	
+  background-size: cover;
+  /* background-blend-mode: 2px; */
+}
+.head-button{
+  margin-left:250px;
+}
+a, a:link, a:visited, a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor:pointer;
+  color: red;
+}
+
+.black10pointcourier {
+    font-family: 'courier'; 
+  color: black;
+  font-size: 10pt;		
+}
+
+.container {
+  width: 50%;
+  margin: 0 50px;
+}
+
+.dropzone {
+  border: 4px solid white;
+  width: 20%;
+  padding: 2% 2% 5% 2%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.divTablefullwidth{
+  margin: 0 auto;
+  display: table;
+  width: 100%;
+}
+
+.divTable{
+  display: table;
+}
+
+.divTableRow {
+  /* margin-left: auto; */
+  display: table-row;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.divTableCell {
+  display: table-cell;
+  padding: 3px 3px;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+.greenspan {
+  color: green;	  
+}
+
+.redspan {
+  color: red;	  
+}
